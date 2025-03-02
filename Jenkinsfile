@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git clone') { 
             steps {
-                git branch: 'main', url: 'https://github.com/YashasMS24/Demo-java.git
+                git branch: 'main', url: 'https://github.com/YashasMS24/Demo-java.git'
             }
         }
         stage('Build') { 
